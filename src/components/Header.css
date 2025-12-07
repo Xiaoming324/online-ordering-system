@@ -1,0 +1,78 @@
+.app-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-header__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0.6rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header--center .app-header__inner {
+  justify-content: center;
+}
+
+.app-header__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app-header__left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.app-header__nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.app-header__nav-button {
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background-color: #f3f4f6;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.app-header__nav-button:hover {
+  background-color: #e5e7eb;
+}
+
+.app-header__nav-button--active {
+  background-color: #1e88e5;
+  color: #ffffff;
+}
+
+.app-header__user {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.app-header__username {
+  color: #6b7280;
+}
+
+.app-header__logout-button {
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #374151;
+}
+
+.app-header__logout-button:hover {
+  background-color: #f3f4f6;
+}

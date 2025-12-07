@@ -1,0 +1,83 @@
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-form__label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.admin-form__input,
+.admin-form__textarea,
+.admin-form__select {
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  box-sizing: border-box;
+}
+
+.admin-form__input:focus,
+.admin-form__textarea:focus,
+.admin-form__select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px #bfdbfe;
+}
+
+.admin-form__textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.admin-form__hint {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.admin-form__error {
+  font-size: 13px;
+  color: #b91c1c;
+}
+
+.admin-form__footer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.admin-form__button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.admin-form__button:hover {
+  background-color: #f3f4f6;
+  border-color: #cbd5e1;
+}
+
+.admin-form__button--primary {
+  background-color: #3b82f6;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+.admin-form__button--primary:hover {
+  background-color: #2563eb;
+  border-color: #1d4ed8;
+}
